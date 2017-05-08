@@ -1,5 +1,6 @@
 package com.db;
 
+import com.test.mapper.UserMapper;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.scripting.velocity.Driver;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -11,7 +12,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 
 @Configuration
-@MapperScan("com.test.mapper")
+@MapperScan(basePackageClasses = UserMapper.class)
 public class MapperConfiguration {
 
     @Bean

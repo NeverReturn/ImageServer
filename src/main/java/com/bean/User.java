@@ -19,7 +19,7 @@ public class User {
 
     private String name;
 
-    private String psd;
+    private String password;
 
     private String message;
 

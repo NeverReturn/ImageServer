@@ -7,12 +7,12 @@ import org.apache.ibatis.annotations.Select
 
 public interface UserMapper {
     @Insert('''
-       INSERT USER(name,psd) VALUES(@{name},@{psd})     
+       INSERT USER(name,password) VALUES(@{name},@{password})     
     ''')
-    User insertUser(User user)
+    int insertUser(User user)
 
     @Select('''
-       SELECT * FROM USER WHERE name=@{name}     
+       SELECT * FROM user WHERE name = @{name}     
     ''')
     User getUserByName(@Param("name") String name)
 }
