@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.mybatis.scripting:mybatis-velocity:1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.scripting/mybatis-velocity/1.1/ddd5a522d5c36e6547adef2110ac8fa0a3b59fac/mybatis-velocity-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mybatis.scripting/mybatis-velocity/1.1/420adc2db0781147e20ac915fb31fbc1b1973f32/mybatis-velocity-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
